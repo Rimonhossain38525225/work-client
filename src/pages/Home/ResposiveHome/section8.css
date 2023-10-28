@@ -1,0 +1,15 @@
+.card-container-mobile {
+  display: flex;
+  overflow-x: auto;
+  white-space: nowrap;
+}
+/* @media (min-width: 640px) {
+  .sm\:w-\[422px\] {
+    width: 422px;
+  }
+} */
+/* @media (max-width: 1024px) {
+  .text-\[36px\] {
+    font-size: 14px !important;
+  }
+} */

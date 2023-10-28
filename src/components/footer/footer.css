@@ -1,0 +1,6 @@
+.faded-purple {
+  background: linear-gradient(90deg, #6355ff 37.7%, #ff47ed 106.15%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
