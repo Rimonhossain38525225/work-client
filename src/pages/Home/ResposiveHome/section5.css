@@ -15,6 +15,7 @@
 }
 @media (max-width: 370px) {
   .band-watch-bg {
+    background-image: url("../../../assets/images/resposivenytonEco.png");
     background-size: auto;
     height: auto;
   }

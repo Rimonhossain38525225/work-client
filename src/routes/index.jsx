@@ -14,7 +14,6 @@ import DataOwnerPage from "../pages/get-started-data-owner/DataOwnerPage";
 import DataBuyerPage from "../pages/get-started-data-buyer/DataBuyerPage";
 import ValidatorsPage from "../pages/get-started-validators/ValidatorsPage";
 import DeviceManufacPage from "../pages/get-started-device-manufacturers/DeviceManufacPage";
-import PressPage from "../pages/press/PressPage";
 import ContactUsPage from "../pages/contact-us/ContactUsPage";
 import BusineesInquiresPage from "../pages/businees-inquiries/BusineesInquiresPage";
 
@@ -34,7 +33,6 @@ function Routess() {
               path="get-started-device-manufacturers"
               element={<DeviceManufacPage />}
             />
-            {/* <Route path="/press" element={<PressPage />} /> */}
             <Route path="/contact-us" element={<ContactUsPage />} />
             <Route
               path="/business-inquiries"
