@@ -1,5 +1,5 @@
 .band-watch-bg {
-  background-image: url("https://www.vyvo.com/backgrounds/band.png");
+  background-image: url("../../../assets/images/nytonEco.png");
   background-size: 100% auto;
 }
 .band-bg,
@@ -11,5 +11,11 @@
 @media (max-width: 660px) {
   .band-watch-bg {
     background-size: 177% auto;
+  }
+}
+@media (max-width: 370px) {
+  .band-watch-bg {
+    background-size: auto;
+    height: auto;
   }
 }

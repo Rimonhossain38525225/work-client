@@ -64,7 +64,7 @@ function Section5() {
                   </div>
                 </div>
                 <NavHashLink to="/business-inquiries#">
-                  <button className="faded-purple-bg x-10 rounded-[43px] px-10 py-4 flex justify-center items-center text-white hover:text-black">
+                  <button className="mt-10 faded-purple-bg x-10 rounded-[43px] px-10 py-4 flex justify-center items-center text-white hover:text-black">
                     <span className="">Become a Partner</span>
                     <svg
                       width="4"
