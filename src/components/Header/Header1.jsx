@@ -43,7 +43,8 @@ const Header1 = () => {
                   ? "relative invisible flex-row items-center right-0 justify-center p-2 h-16 w-36 text-sm text-black focus:outline-none bg-white py-2 px-5"
                   : "relative flex flex-row items-center right-0 justify-center p-2 h-16 w-36 text-sm text-black focus:outline-none bg-white py-2 px-5"
               }
-              onClick={() => setToggle(!toggle)}>
+              onClick={() => setToggle(!toggle)}
+            >
               <span className="sr-only">Open main menu</span>
               ++ MENU
             </button>
@@ -55,7 +56,8 @@ const Header1 = () => {
                     <button
                       type="button"
                       className="relative flex flex-row items-center right-0 justify-center ml-20 p-2 h-16 w-36 text-sm text-white focus:outline-none bg-transparent py-2 px-5 order-last"
-                      onClick={() => setToggle(!toggle)}>
+                      onClick={() => setToggle(!toggle)}
+                    >
                       <span className="sr-only">Close main menu</span>-- CLOSE
                     </button>
                     <ul className="flex font-medium gap-x-10 p-8 text white text-xs py-4 text-white">
@@ -64,7 +66,8 @@ const Header1 = () => {
                           className="text white text-xs leading-[21px] tracking-[2px] py-4 font-medium opacity-90"
                           aria-current="page"
                           to="/#"
-                          onClick={() => setToggle(!toggle)}>
+                          onClick={() => setToggle(!toggle)}
+                        >
                           HOME
                         </NavHashLink>
                       </li>
@@ -76,35 +79,40 @@ const Header1 = () => {
                           className="block py-2 text-white font-normal opacity-90"
                           aria-current="page"
                           to="/get-started-vsc#what-is-vsc"
-                          onClick={() => setToggle(!toggle)}>
+                          onClick={() => setToggle(!toggle)}
+                        >
                           What is NYT
                         </NavHashLink>
                         <a
                           className="block py-2 text-white font-normal opacity-90"
                           aria-current="page"
                           href="/get-started-vsc#data-nfts"
-                          onClick={() => setToggle(!toggle)}>
+                          onClick={() => setToggle(!toggle)}
+                        >
                           Data-NFTs
                         </a>
                         <a
                           className="block py-2 text-white font-normal opacity-90"
                           aria-current="page"
                           href="/get-started-vsc#pose"
-                          onClick={() => setToggle(!toggle)}>
+                          onClick={() => setToggle(!toggle)}
+                        >
                           PoSe
                         </a>
                         <NavHashLink
                           className="block py-2 text-white font-normal opacity-90"
                           aria-current="page"
                           to="/get-started-vsc#tokenomics"
-                          onClick={() => setToggle(!toggle)}>
+                          onClick={() => setToggle(!toggle)}
+                        >
                           Tokenomics
                         </NavHashLink>
                         <a
                           className="block py-2 text-white font-normal opacity-90"
                           aria-current="page"
                           href="/get-started-vsc#ddh-platform"
-                          onClick={() => setToggle(!toggle)}>
+                          onClick={() => setToggle(!toggle)}
+                        >
                           DDH Platform
                         </a>
                       </li>
@@ -118,7 +126,8 @@ const Header1 = () => {
                           target="_blank"
                           rel="noreferrer"
                           href="https://linktr.ee/nyoton"
-                          onClick={() => setToggle(!toggle)}>
+                          onClick={() => setToggle(!toggle)}
+                        >
                           Socials
                         </a>
                         {/* <NavHashLink
@@ -128,20 +137,22 @@ const Header1 = () => {
                           onClick={() => setToggle(!toggle)}>
                           Press
                         </NavHashLink> */}
-                        <NavLink
+                        <NavHashLink
                           className="block py-2 text-white font-normal opacity-90"
                           aria-current="page"
-                          to="/contact-us"
-                          onClick={() => setToggle(!toggle)}>
+                          to="/contact-us#"
+                          onClick={() => setToggle(!toggle)}
+                        >
                           Contact
-                        </NavLink>
-                        <NavLink
+                        </NavHashLink>
+                        <NavHashLink
                           className="block py-2 text-white font-normal opacity-90"
                           aria-current="page"
-                          to="/business-inquiries"
-                          onClick={() => setToggle(!toggle)}>
+                          to="/business-inquiries#"
+                          onClick={() => setToggle(!toggle)}
+                        >
                           Business Inquiries
-                        </NavLink>
+                        </NavHashLink>
                       </li>
                       <li className="flex flex-col">
                         <span className="text white text-xs leading-[21px] tracking-[2px] py-4 font-medium">
@@ -150,19 +161,23 @@ const Header1 = () => {
                         <NavLink
                           className="py-2 relative text-white before:content-['Coming_Soon'] before:absolute before:opacity-0 before:transition-opacity before:duration-500 hover:before:opacity-100 after:content-['Wallet'] after:duration-500 after:transition-opacity hover:after:opacity-0"
                           aria-current="page"
-                          href="#"></NavLink>
+                          href="#"
+                        ></NavLink>
                         <NavLink
                           className="py-2 relative text-white before:content-['Coming_Soon'] before:absolute before:opacity-0 before:transition-opacity before:duration-500 hover:before:opacity-100 after:content-['Bridge'] after:duration-500 after:transition-opacity hover:after:opacity-0"
                           aria-current="page"
-                          href="#"></NavLink>
+                          href="#"
+                        ></NavLink>
                         <a
                           className="py-2 relative text-white before:content-['Coming_Soon'] before:absolute before:opacity-0 before:transition-opacity before:duration-500 hover:before:opacity-100 after:content-['Stake'] after:duration-500 after:transition-opacity hover:after:opacity-0"
                           aria-current="page"
-                          href="#"></a>
+                          href="#"
+                        ></a>
                         <a
                           className="py-2 relative text-white before:content-['Coming_Soon'] before:absolute before:opacity-0 before:transition-opacity before:duration-500 hover:before:opacity-100 after:content-['Faucet'] after:duration-500 after:transition-opacity hover:after:opacity-0"
                           aria-current="page"
-                          href="#"></a>
+                          href="#"
+                        ></a>
                       </li>
                       <li className="flex flex-col">
                         <span className="text white text-xs leading-[21px] tracking-[2px] py-4 font-medium uppercase">
@@ -173,7 +188,8 @@ const Header1 = () => {
                           rel="noreferrer"
                           className="block py-2 text-white font-normal opacity-90"
                           aria-current="page"
-                          href="https://masterrit.com/login">
+                          href="https://masterrit.com/login"
+                        >
                           Login
                         </a>
                       </li>
