@@ -22,13 +22,15 @@ function Section1() {
           data-aos-easing="linear"
           // data-aos-easing="ease-out-cubic"
           data-aos-duration="3000"
-          data-aos-delay="500">
+          data-aos-delay="500"
+        >
           <video
             // controls
             className="videoTag w-full"
             autoPlay
             muted
-            loop>
+            loop
+          >
             <source src={worldStart1Video} type="video/mp4" />
           </video>
         </div>
@@ -77,11 +79,13 @@ function Section1() {
                     style={{
                       opacity: 1,
                       transform: "translateX(5px) translateZ(0px)",
-                    }}>
+                    }}
+                  >
                     <div
                       // data-aos="fade-right"
                       data-aos="zoom-in-left"
-                      className="absolute w-[20px] h-[20px] z-10 transform-gpu bg-transparent border-[1.9px] rounded-full border-[#FCFCFC]"></div>
+                      className="absolute w-[20px] h-[20px] z-10 transform-gpu bg-transparent border-[1.9px] rounded-full border-[#FCFCFC]"
+                    ></div>
                   </div>
 
                   <div
@@ -89,11 +93,13 @@ function Section1() {
                     style={{
                       opacity: 1,
                       transform: "translateX(-5px) translateZ(0px)",
-                    }}>
+                    }}
+                  >
                     <div
                       data-aos="zoom-in-right"
                       data-aos-once={false}
-                      className="absolute w-[20px] h-[20px] transform-gpu bg-transparent border-[1.9px] rounded-full border-[#FCFCFC]"></div>
+                      className="absolute w-[20px] h-[20px] transform-gpu bg-transparent border-[1.9px] rounded-full border-[#FCFCFC]"
+                    ></div>
                   </div>
                 </div>
                 <span>
@@ -127,7 +133,8 @@ function Section1() {
                       color: "transparent",
                       objectFit: "contain",
                       objectPosition: "left center",
-                    }}></img>
+                    }}
+                  ></img>
                 </button>
               </a>
             </div>
@@ -136,36 +143,42 @@ function Section1() {
             <div className="col-span-12 grid grid-cols-12">
               <div
                 className="col-span-6"
-                style={{ opacity: 1, transform: "none" }}>
+                style={{ opacity: 1, transform: "none" }}
+              >
                 <div>
                   <p
                     data-aos="fade-up"
                     data-aos-duration="1000"
-                    className="text-[#979797] font-light leading-[18px] mt-3 text-xs">
+                    className="text-[#979797] font-light leading-[18px] mt-3 text-xs"
+                  >
                     BUILD DATA-DRIVEN SOLUTIONS
                   </p>
                 </div>
               </div>
               <div
                 className="col-span-3"
-                style={{ opacity: 1, transform: "none" }}>
+                style={{ opacity: 1, transform: "none" }}
+              >
                 <div>
                   <p
                     data-aos="fade-up"
                     data-aos-duration="1000"
-                    className="text-[#979797] font-light leading-[18px] mt-3 text-xs">
+                    className="text-[#979797] font-light leading-[18px] mt-3 text-xs"
+                  >
                     BLOCKCHAIN
                   </p>
                 </div>
               </div>
               <div
                 className="col-span-3"
-                style={{ opacity: 1, transform: "none" }}>
+                style={{ opacity: 1, transform: "none" }}
+              >
                 <div>
                   <p
                     data-aos="fade-up"
                     data-aos-duration="1000"
-                    className="text-[#979797] font-light leading-[18px] mt-3 text-right text-xs">
+                    className="text-[#979797] font-light leading-[18px] mt-3 text-right text-xs"
+                  >
                     NYOTON SMART CHAIN
                   </p>
                 </div>
@@ -185,11 +198,13 @@ function Section1() {
             <div className="col-span-8 lg:mt-[124px] grid grid-cols-12 text-white gap-x-10 z-[9000] mr-12">
               <div
                 className="col-span-12"
-                style={{ opacity: 1, transform: "none" }}>
+                style={{ opacity: 1, transform: "none" }}
+              >
                 <div
                   data-aos="fade-up"
                   data-aos-duration="1000"
-                  className="col-span-12 mb-12">
+                  className="col-span-12 mb-12"
+                >
                   <p className="text-5xl leading-[3.5rem] mb-2 font-light">
                     Nyoton Smart Chain is the <br />
                     first&nbsp;
@@ -218,11 +233,13 @@ function Section1() {
                   <div
                     data-aos="fade-up"
                     data-aos-duration="1000"
-                    style={{ opacity: 1, transform: "none" }}>
+                    style={{ opacity: 1, transform: "none" }}
+                  >
                     <p
                       data-aos="fade-up"
                       data-aos-duration="1000"
-                      className="font-light ">
+                      className="font-light "
+                    >
                       Nyoton Smart Chain (NYT)'s platform <br />
                       <span className="whitespace-nowrap">
                         anonymises users'
@@ -240,12 +257,14 @@ function Section1() {
                   </div>
                   <div
                     className="mb-8 "
-                    style={{ opacity: 1, transform: "none" }}>
+                    style={{ opacity: 1, transform: "none" }}
+                  >
                     <p
                       data-aos="fade-up"
                       data-aos-duration="1000"
                       data-aos-delay="300"
-                      className="">
+                      className=""
+                    >
                       fuelling medical research and scientific discoveries{" "}
                       <br /> to create better solutions for tomorrow.
                     </p>
@@ -255,7 +274,8 @@ function Section1() {
                       <button
                         data-aos="fade-up"
                         data-aos-delay="300"
-                        className="mr-12 border-faded-purple px-10 py-3 flex justify-center items-center hover:border-faded-purple-pressed">
+                        className="mr-12 border-faded-purple px-10 py-3 flex justify-center items-center hover:border-faded-purple-pressed"
+                      >
                         <span className="text-white">Learn More</span>
                         <img
                           alt="Arrow right"
@@ -273,172 +293,6 @@ function Section1() {
                         />
                       </button>
                     </NavHashLink>
-                  </div>
-                </div>
-              </div>
-              {/* card 1 */}
-              <div
-                className="col-span-6 2xl:col-span-5"
-                style={{ opacity: 1, transform: "none" }}>
-                <div
-                  data-aos="fade-up"
-                  className="bg-[#121212] rounded-[4px] p-5 mt-[100px]">
-                  <div className="flex justify-between items-center">
-                    <div className="relative h-10 w-full">
-                      <img
-                        alt="Total Heartbeats"
-                        loading="lazy"
-                        decoding="async"
-                        style={{
-                          position: "absolute",
-                          height: "100%",
-                          width: "100%",
-                          left: 0,
-                          top: 0,
-                          right: 0,
-                          bottom: 0,
-                          objectFit: "contain",
-                          objectPosition: "left",
-                          color: "transparent",
-                        }}
-                        src="https://www.vyvo.com/shapes/oval-circle-hexagon.svg"
-                      />
-                    </div>
-                    <span className="text-[21px] text-right text-[#777578] font-light leading-[24px]">
-                      001
-                    </span>
-                  </div>
-                  <div className="mt-[39px] h-[128px]">
-                    <div className="h-full w-full relative">
-                      <img
-                        alt="Heartbeats"
-                        loading="lazy"
-                        decoding="async"
-                        // data-nimg="fill"
-                        style={{
-                          position: "absolute",
-                          height: "100%",
-                          width: "100%",
-                          left: 0,
-                          top: 0,
-                          right: 0,
-                          bottom: 0,
-                          objectFit: "contain",
-                          objectPosition: "center",
-                          color: "transparent",
-                        }}
-                        src="https://www.vyvo.com/shapes/heartbeat.svg"
-                      />
-                      <img
-                        alt="Heart"
-                        loading="lazy"
-                        decoding="async"
-                        // data-nimg="fill"
-                        style={{
-                          position: "absolute",
-                          height: "100%",
-                          width: "100%",
-                          left: 0,
-                          top: 0,
-                          right: 0,
-                          bottom: 0,
-                          objectFit: "contain",
-                          objectPosition: "center",
-                          color: "transparent",
-                        }}
-                        src="https://www.vyvo.com/shapes/heart.svg"
-                      />
-                    </div>
-                  </div>
-                  <div className="flex flex-col space-y-3 mt-6">
-                    <span className="text-[16px] font-light leading-[21px] text-[#a3a3a3]">
-                      Total Heartbeats Recorded
-                    </span>
-                    <div className="border  w-full"></div>
-                    <span className="text-[30px] xl:text-[40px] leading-normal font-light faded-pink"></span>
-                  </div>
-                </div>
-              </div>
-              {/* card2 */}
-              <div
-                className="col-span-6 2xl:col-span-5"
-                style={{ opacity: 1, transform: "none" }}>
-                <div
-                  data-aos="fade-up"
-                  data-aos-delay="300"
-                  className="bg-[#121212] rounded-[4px] mt-[100px]">
-                  <div className="px-5 pt-5 relative h-[270px] flex flex-col">
-                    <div className="flex justify-between items-center">
-                      <div className="relative h-10 w-full">
-                        <img
-                          alt="Data Blocks Validated"
-                          loading="lazy"
-                          decoding="async"
-                          // data-nimg="fill"
-                          style={{
-                            position: "absolute",
-                            height: "100%",
-                            width: "100%",
-                            left: 0,
-                            top: 0,
-                            right: 0,
-                            bottom: 0,
-                            objectFit: "contain",
-                            objectPosition: "left",
-                            color: "transparent",
-                          }}
-                          src="https://www.vyvo.com/shapes/triple-diag-square.svg"
-                        />
-                      </div>
-                      <span className="text-[21px] text-right text-[#777578] font-light leading-[24px]">
-                        002
-                      </span>
-                    </div>
-                    <img
-                      alt="Blocks Grid"
-                      loading="lazy"
-                      decoding="async"
-                      data-nimg="fill"
-                      style={{
-                        position: "absolute",
-                        height: "100%",
-                        width: "100%",
-                        left: 0,
-                        top: 0,
-                        right: 0,
-                        bottom: 0,
-                        objectFit: "contain",
-                        objectPosition: "center",
-                        color: "transparent",
-                      }}
-                      src="https://www.vyvo.com/shapes/block-grid.svg"
-                    />
-                    <img
-                      alt="3D Blocks"
-                      loading="lazy"
-                      decoding="async"
-                      data-nimg="fill"
-                      style={{
-                        position: "absolute",
-                        height: "100%",
-                        width: "100%",
-                        left: 0,
-                        top: 0,
-                        right: 0,
-                        bottom: 0,
-                        objectFit: "contain",
-                        objectPosition: "center",
-                        color: "transparent",
-                      }}
-                      src="https://www.vyvo.com/shapes/3d-blocks.svg"
-                    />
-                    <span className="text-[16px] font-light leading-[21px] text-[#a3a3a3] mt-[191px] z-10">
-                      Data Blocks Validated
-                    </span>
-                  </div>
-                  <div className="flex flex-col space-y-3 mt-3 px-5 pb-5">
-                    <div className="border  w-full"></div>
-                    <span className="text-[30px] xl:text-[40px] leading-normal font-light faded-light-blue"></span>
                   </div>
                 </div>
               </div>

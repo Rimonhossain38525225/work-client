@@ -16,22 +16,7 @@ function Footer() {
           <div className="grid grid-cols-12">
             <div className="hidden md:flex col-span-6 flex-col items-center">
               <div className="h-[372px] flex items-center">
-                {/* <video
-                  className="videoTag w-[372px] pl-8 md:pl-0"
-                  autoPlay
-                  muted
-                >
-                  <source
-                    src="https://www.vyvo.com//videos/footer-logo.mp4"
-                    type="video/mp4"
-                  />
-                </video> */}
                 <div className="w-[372px] pl-8 md:pl-0">
-                  {/* <img
-                    className="footer-logo"
-                    src={footerLogo}
-                    alt="footer logo"
-                  /> */}
                   <span
                     style={{
                       fontSize: "5rem",

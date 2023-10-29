@@ -17,13 +17,15 @@ const Section4 = () => {
         <div className="grid grid-cols-12">
           <div
             className="col-span-1 col-start-1"
-            style={{ opacity: 1, transform: "none" }}>
+            style={{ opacity: 1, transform: "none" }}
+          >
             <div className="vertical-text-right mt-[50%]">
               <span
                 data-aos="fade-up"
                 data-aos-duration="600"
                 data-aos-delay="300"
-                className="text-xs leading-[18px] text-white">
+                className="text-xs leading-[18px] text-white"
+              >
                 <span className="mr-6">[</span> NYT&nbsp; NETWORK
                 <span className="text-[#979797] leading-[18px] ml-2">
                   /&nbsp;/&nbsp;/&nbsp;/&nbsp;/&nbsp;/&nbsp;/&nbsp;/&nbsp;/
@@ -39,13 +41,15 @@ const Section4 = () => {
               data-aos="fade-up"
               data-aos-duration="1000"
               data-aos-delay="200"
-              className="">
+              className=""
+            >
               <div
                 className="mb-12"
                 style={{
                   transform: "scale(1.2) translateZ(0px)",
                   transformOrigin: "100px 100px 0px",
-                }}>
+                }}
+              >
                 <div style={{ opacity: 1, transform: "none" }}>
                   {initial && (
                     <img
@@ -86,7 +90,7 @@ const Section4 = () => {
                       decoding="async"
                       data-nimg="1"
                       className=""
-                      srcset="https://www.vyvo.com/_next/image?url=%2Fbackgrounds%2Fice.png&amp;w=384&amp;q=100 1x, https://www.vyvo.com/_next/image?url=%2Fbackgrounds%2Fice.png&amp;w=640&amp;q=100 2x"
+                      srcSet="https://www.vyvo.com/_next/image?url=%2Fbackgrounds%2Fice.png&amp;w=384&amp;q=100 1x, https://www.vyvo.com/_next/image?url=%2Fbackgrounds%2Fice.png&amp;w=640&amp;q=100 2x"
                       src="https://www.vyvo.com/_next/image?url=%2Fbackgrounds%2Fice.png&amp;w=640&amp;q=100"
                       style={{ color: "transparent" }}
                     />
@@ -100,9 +104,10 @@ const Section4 = () => {
                       decoding="async"
                       data-nimg="1"
                       className=""
-                      srcset="https://www.vyvo.com/_next/image?url=%2Fbackgrounds%2Fsingle-cube.png&amp;w=384&amp;q=100 1x, https://www.vyvo.com/_next/image?url=%2Fbackgrounds%2Fsingle-cube.png&amp;w=640&amp;q=100 2x"
+                      srcSet="https://www.vyvo.com/_next/image?url=%2Fbackgrounds%2Fsingle-cube.png&amp;w=384&amp;q=100 1x, https://www.vyvo.com/_next/image?url=%2Fbackgrounds%2Fsingle-cube.png&amp;w=640&amp;q=100 2x"
                       src="https://www.vyvo.com/_next/image?url=%2Fbackgrounds%2Fsingle-cube.png&amp;w=640&amp;q=100"
-                      style={{ color: "transparent" }}></img>
+                      style={{ color: "transparent" }}
+                    ></img>
                   )}
                 </div>
               </div>
@@ -132,12 +137,14 @@ const Section4 = () => {
             data-aos="fade-up"
             data-aos-duration="1000"
             data-aos-delay="100"
-            className="col-span-9 col-start-6">
+            className="col-span-9 col-start-6"
+          >
             <div
               data-aos="fade-up"
               data-aos-duration="1000"
               data-aos-delay="500"
-              style={{ opacity: 1, transform: "none" }}>
+              style={{ opacity: 1, transform: "none" }}
+            >
               <div
                 className="font-light home-hover-list"
                 onMouseOver={() => {
@@ -145,16 +152,19 @@ const Section4 = () => {
                   setTwoPera(false);
                   setThreePera(false);
                   setInitial(false);
-                }}>
+                }}
+              >
                 <div className="flex items-center">
                   <p
                     id="number"
-                    className="text-xl text-[#E6E6E6] opacity-20 leading-6 hover:opacity-100">
+                    className="text-xl text-[#E6E6E6] opacity-20 leading-6 hover:opacity-100"
+                  >
                     01.
                   </p>
                   <p
                     id="descr"
-                    className="ml-[94px] text-4xl text-[#E6E6E6] opacity-20 leading-[44px] tracking-tight font-light cursor-default">
+                    className="ml-[94px] text-4xl text-[#E6E6E6] opacity-20 leading-[44px] tracking-tight font-light cursor-default"
+                  >
                     IoT&nbsp;&nbsp;Devices
                   </p>
                 </div>
@@ -176,16 +186,19 @@ const Section4 = () => {
                   setTwoPera(true);
                   setThreePera(false);
                   setInitial(false);
-                }}>
+                }}
+              >
                 <div className="flex items-center">
                   <p
                     id="number"
-                    className="text-xl text-[#E6E6E6] opacity-20 leading-6">
+                    className="text-xl text-[#E6E6E6] opacity-20 leading-6"
+                  >
                     02.
                   </p>
                   <p
                     id="descr"
-                    className="ml-[94px] text-4xl text-[#E6E6E6] opacity-20 leading-[44px] tracking-tight font-light cursor-default">
+                    className="ml-[94px] text-4xl text-[#E6E6E6] opacity-20 leading-[44px] tracking-tight font-light cursor-default"
+                  >
                     Hybrid Consensus PoS + PoSe
                   </p>
                 </div>
@@ -206,16 +219,19 @@ const Section4 = () => {
                   setTwoPera(false);
                   setThreePera(true);
                   setInitial(false);
-                }}>
+                }}
+              >
                 <div className="flex items-center">
                   <p
                     id="number"
-                    className="text-xl text-[#E6E6E6] opacity-20 leading-6">
+                    className="text-xl text-[#E6E6E6] opacity-20 leading-6"
+                  >
                     03.
                   </p>
                   <p
                     id="descr"
-                    className="ml-[94px] text-4xl text-[#E6E6E6] opacity-20 leading-[44px] tracking-tight font-light cursor-default">
+                    className="ml-[94px] text-4xl text-[#E6E6E6] opacity-20 leading-[44px] tracking-tight font-light cursor-default"
+                  >
                     DDH Platform
                   </p>
                 </div>
